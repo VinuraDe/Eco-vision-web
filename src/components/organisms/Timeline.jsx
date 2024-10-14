@@ -1,13 +1,12 @@
 import React from 'react'
 import { timeline } from '../../constants/Timeline';
+import PrimaryTypo from '../atoms/Headings';
 
 const TimelineSection = () => {
   return (
     <section id="timeline" className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">
-          Project Timeline
-        </h2>
+        <PrimaryTypo text="Project Timeline" />
 
         <div className="relative">
           <div className="absolute w-1 bg-gray-300 h-full left-1/2 transform -translate-x-1/2"></div>
@@ -15,9 +14,9 @@ const TimelineSection = () => {
             {timeline.map((event, index) => (
               <div
                 key={index}
-                className={`flex flex-col items-center ${
-                  index % 2 === 0 ? "md:flex-row-reverse" : "md:flex-row"
-                } md:items-start`}
+                className={`flex flex-col sm:items-end ${
+                  index % 2 === 0 ? "sm:flex-row-reverse" : "sm:flex-row"
+                } sm:items-start`}
               >
                 <div className="flex items-center justify-center w-8 h-8 bg-green-600 text-white rounded-full">
                   {event.step}

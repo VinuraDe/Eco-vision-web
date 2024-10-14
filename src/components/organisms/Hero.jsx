@@ -1,6 +1,6 @@
 import React from "react";
-// Import the image from your assets folder
 import heroImage from "../../assets/heroImage.jpg"; 
+import { ButtonLink } from "../atoms/Buttons";
 
 const HeroSection = () => {
   return (
@@ -8,7 +8,7 @@ const HeroSection = () => {
       id="home"
       className="relative bg-cover bg-center h-screen"
       style={{
-        backgroundImage: `url(${heroImage})`, // Use the imported image
+        backgroundImage: `url(${heroImage})`,
       }}
     >
       {/* Overlay */}
@@ -22,18 +22,7 @@ const HeroSection = () => {
           Creating beautiful digital experiences with simplicity and elegance.
         </p>
         <div className="space-x-4">
-          <a
-            href="#services"
-            className="bg-green-600 hover:bg-green-700 px-6 py-3 rounded-md text-lg transition"
-          >
-            Get Started
-          </a>
-          <a
-            href="#about"
-            className="bg-white text-gray-800 hover:bg-gray-100 px-6 py-3 rounded-md text-lg transition"
-          >
-            Learn More
-          </a>
+          <ButtonLink text="See Details" link="#survey" />
         </div>
       </div>
     </section>
