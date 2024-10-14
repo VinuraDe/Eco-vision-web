@@ -1,37 +1,39 @@
+import Avatar from '../assets/Avatar.png';
+import Avatar02 from '../assets/woman.png';
 export const teamMembers = [
   {
-    name: "John Doe",
-    role: "Project Manager",
-    image: "https://via.placeholder.com/150",
+    name: "Mr.Vishan Jayasinghearachchi",
+    role: "Supervisor",
+    image: Avatar,
   },
   {
-    name: "Jane Smith",
-    role: "Lead Developer",
-    image: "https://via.placeholder.com/150",
+    name: "Mr. Thusithanjana Thilakarthna",
+    role: "Co-Supervisor",
+    image: Avatar,
   },
   {
     name: "David Lee",
-    role: "UI/UX Designer",
-    image: "https://via.placeholder.com/150",
+    role: "External-Supervisor",
+    image: Avatar,
   },
   {
-    name: "Vinal Munasinghe",
-    role: "Marketing Specialist",
-    image: "https://via.placeholder.com/150",
+    name: "Munasinghe K.D.V.S",
+    role: "Team Leader",
+    image: Avatar,
   },
   {
-    name: "Michael Brown",
-    role: "Backend Developer",
-    image: "https://via.placeholder.com/150",
+    name: "Shashikala W.A.A",
+    role: "Member",
+    image: Avatar02,
   },
   {
-    name: "Sarah Johnson",
-    role: "QA Engineer",
-    image: "https://via.placeholder.com/150",
+    name: "De Silva M.V.R",
+    role: "Member",
+    image: Avatar,
   },
   {
-    name: "Chris Wilson",
-    role: "DevOps Engineer",
-    image: "https://via.placeholder.com/150",
+    name: "Muthukumarana R.P",
+    role: "Member",
+    image: Avatar02,
   },
 ];

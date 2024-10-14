@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import PrimaryTypo from "../atoms/Headings";
+import PrimaryText from "../atoms/Text";
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -17,9 +19,7 @@ const ContactUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
     console.log(formData);
-    // You might want to reset the form after submission
     setFormData({
       name: "",
       email: "",
@@ -28,15 +28,13 @@ const ContactUs = () => {
   };
 
   return (
-    <section className=" py-10">
+    <section id="contact" className="bg-gray-50 py-10">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center text-gray-800 mb-6">
-          Contact Us
-        </h2>
-        <p className="text-center text-gray-700 mb-8">
-          We would love to hear from you! Please fill out the form below, and we
-          will get back to you as soon as possible.
-        </p>
+        <PrimaryTypo text="Contact Us" />
+        <PrimaryText
+          text="We would love to hear from you! Please fill out the form below, and we
+          will get back to you as soon as possible."
+        />
         <form
           onSubmit={handleSubmit}
           className="w-full mx-auto bg-gray-50 rounded-lg shadow-md p-6"
