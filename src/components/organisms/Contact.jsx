@@ -40,16 +40,17 @@ const ContactUs = () => {
           >
             <PrimaryTypo
               text="Contact Us"
-              className="text-4xl font-bold text-white mb-4"
+              className="text-4xl font-bold mb-4"
             />
             <PrimaryText
               text="We would love to hear from you! Please fill out the form, and we will get back to you as soon as possible."
-              className="text-lg mb-6 text-white"
+              className="text-lg mb-6"
             />
-            <p className="text-white">
-              For urgent inquiries, contact us via email at support@domain.com
-              or call us at (555) 555-5555.
-            </p>
+            <PrimaryText
+              text="For urgent inquiries, contact us via email at support@domain.com
+              or call us at (555) 555-5555."
+              className="text-lg mb-6"
+            />
           </div>
 
           {/* Right Column - Form */}
