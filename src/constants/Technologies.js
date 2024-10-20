@@ -12,7 +12,25 @@ export const technologies = [
     name: "JavaScript",
     icon: "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg",
   },
-  { name: "HTML5", icon: "https://cdn.worldvectorlogo.com/logos/html-1.svg" },
-  { name: "CSS3", icon: "https://cdn.worldvectorlogo.com/logos/css-3.svg" },
   { name: "Git", icon: "https://cdn.worldvectorlogo.com/logos/git-icon.svg" },
+  {
+    name: "Python",
+    icon: "https://cdn.worldvectorlogo.com/logos/python-5.svg",
+  },
+  {
+    name: "TensorFlow",
+    icon: "https://cdn.worldvectorlogo.com/logos/tensorflow-2.svg",
+  },
+  {
+    name: "CNN (Convolutional Neural Networks)",
+    icon: "https://via.placeholder.com/64?text=CNN",
+  },
+  {
+    name: "YOLO",
+    icon: "https://via.placeholder.com/64?text=YOLO", 
+  },
+  {
+    name: "TypeScript",
+    icon: "https://cdn.worldvectorlogo.com/logos/typescript.svg",
+  },
 ];
