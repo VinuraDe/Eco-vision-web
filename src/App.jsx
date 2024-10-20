@@ -1,5 +1,6 @@
 
 import './App.css'
+import Footer from './components/organisms/Footer';
 import NavBar from './components/organisms/NavBar'
 import HomePage from './components/pages/HomePage'
 
@@ -10,6 +11,7 @@ import HomePage from './components/pages/HomePage'
       <main>
         <HomePage/>
       </main>
+      <Footer/>
     </div>
   );
 }
