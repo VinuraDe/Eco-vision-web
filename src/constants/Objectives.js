@@ -1,22 +1,18 @@
 export const objectivesData = [
   {
-    title: "Objective 1",
+    title: "Analyze the relationship between process parameters and emissions data through data analytics.",
     description:
-      "To explore the potential of [specific field/technology] in enhancing [related aspect].",
+      "Analyze the correlation between process parameters and emissions data using data analytics to identify patterns and optimize industrial performance.",
   },
   {
-    title: "Objective 2",
+    title: "Developing algorithms for real-time optimization of industrial processes to reduce emissions. ",
     description:
-      "To analyze the impact of [specific variable] on [specific outcome or process].",
+      "To create algorithms that optimize industrial processes in real-time to minimize emissions.",
   },
   {
-    title: "Objective 3",
+    title: "Implement real-time alerts to warn of potential emission exceedances based on regular emission pattern analysis. ",
     description:
-      "To develop a novel approach to [specific problem] that improves efficiency and accuracy.",
+      "Establish a system that provides immediate notifications for potential emission exceedances by analyzing regular emission patterns in real-time.",
   },
-  {
-    title: "Objective 4",
-    description:
-      "To evaluate the effectiveness of [method/solution] in real-world applications.",
-  },
+  
 ];
