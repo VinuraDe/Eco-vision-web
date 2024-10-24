@@ -26,7 +26,7 @@ function DocumentSection() {
                 <div className="mt-4">
                   <PrimaryButton
                     text="Download"
-                    link="https://www.youtube.com/"
+                    link={item.link}
                   />
                 </div>
               </div>
