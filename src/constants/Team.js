@@ -12,7 +12,7 @@ export const teamMembers = [
     image: Avatar,
   },
   {
-    name: "David Lee",
+    name: "Mr. K Pratheepan",
     role: "External-Supervisor",
     image: Avatar,
   },
