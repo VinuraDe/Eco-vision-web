@@ -12,8 +12,8 @@ function PresentationSection() {
         <ul className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {presentations.map((item, index) => (
             <li
-              key={index}
-              className="flex flex-col justify-between items-center p-4 bg-gray-100 rounded-md shadow-md min-h-[200px]"
+            key={index}
+            className="flex flex-col justify-between items-center p-4 bg-gray-100 rounded-md shadow-md min-h-[200px] transform transition duration-300 hover:shadow-lg hover:bg-gray-200"
             >
               <div className="flex flex-col items-center">
                 <BsFiletypePpt className="text-red-500 mb-2 w-16 h-16" />
@@ -24,7 +24,7 @@ function PresentationSection() {
               <div className="mt-4">
                 <PrimaryButton
                   text="Download"
-                  link="https://www.youtube.com/"
+                  link={item.link}
                 />
               </div>
             </li>
