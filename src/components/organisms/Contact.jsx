@@ -47,8 +47,8 @@ const ContactUs = () => {
               className="text-lg mb-6"
             />
             <PrimaryText
-              text="For urgent inquiries, contact us via email at support@domain.com
-              or call us at (555) 555-5555."
+              text="For urgent inquiries, contact us via email at ecovisionsystem@gmail.com
+              or call us at (+94) 77 676 5490"
               className="text-lg mb-6"
             />
           </div>
