@@ -26,10 +26,6 @@ export const technologies = [
     icon: "https://via.placeholder.com/64?text=CNN",
   },
   {
-    name: "YOLO",
-    icon: "https://via.placeholder.com/64?text=YOLO", 
-  },
-  {
     name: "TypeScript",
     icon: "https://cdn.worldvectorlogo.com/logos/typescript.svg",
   },
