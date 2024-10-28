@@ -1,9 +1,4 @@
-import React from "react";
-import { FaFilePdf } from "react-icons/fa";
-import { BsFiletypePpt } from "react-icons/bs";
-import { documents, presentations } from "../../constants/Documents";
 import PrimaryTypo from "../atoms/Headings";
-import { PrimaryButton } from "../atoms/Buttons";
 import DocumentSection from "../molecules/DocumentsSection";
 import PresentationSection from "../molecules/PresentationSection";
 

@@ -1,7 +1,8 @@
-import React from "react";
 import PrimaryText from "../atoms/Text";
 import { methodologySections } from "../../constants/Methodology";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const Methodology = () => {
   return (
@@ -22,7 +23,7 @@ const Methodology = () => {
                 {section.title}
               </h3>
               {section.image ? (
-                <>
+                <div data-aos="zoom-in" data-aos-duration="3000">
                   <img
                     src={section.image}
                     alt={section.alt}
@@ -31,7 +32,7 @@ const Methodology = () => {
                   <p className="text-sm text-gray-500 mt-2">
                     {section.caption}
                   </p>
-                </>
+                </div>
               ) : (
                 <PrimaryText text={section.content} />
               )}
