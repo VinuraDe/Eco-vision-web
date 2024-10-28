@@ -47,7 +47,7 @@ const HeroSection = () => {
           Welcome to Ecovision
         </h1>
         <p className="text-lg md:text-2xl mb-6 max-w-2xl">
-          Creating beautiful digital experiences with simplicity and elegance.
+          Creating eco-friendly solutions for industrial emission monitoring with the help of IoT.
         </p>
         <div className="space-x-4">
           <ButtonLink text="See Details" link="#survey" />
