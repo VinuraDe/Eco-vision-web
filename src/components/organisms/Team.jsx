@@ -1,6 +1,8 @@
-import React from 'react'
 import { teamMembers } from '../../constants/Team';
 import PrimaryTypo from '../atoms/Headings';
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const TeamSection = () => {
   return (
@@ -11,12 +13,16 @@ const TeamSection = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {teamMembers.map((member, index) => (
             <div
+              data-aos="zoom-in"
+              data-aos-duration="3000"
               key={index}
-              className="bg-white rounded-lg shadow-md overflow-hidden group"
+              className="bg-[#fffefe] rounded-lg shadow-md overflow-hidden group hover:scale-105 transition duration-300"
             >
               <img
                 src={member.image}
                 alt={member.name}
+                data-aos="zoom-in"
+                data-aos-duration="3000"
                 className="w-full h-48 object-contain group-hover:opacity-80 transition"
               />
 
